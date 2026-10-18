@@ -1,0 +1,135 @@
+{
+ "schema": 1,
+ "updated_at": "2026-10-18T08:27:36+08:00",
+ "started_at": "2026-10-16T16:54:17+08:00",
+ "state": "running",
+ "message": "",
+ "targets": [
+  "11/21(六)",
+  "11/22(日)"
+ ],
+ "seat": "椅子席",
+ "sources": [
+  {
+   "id": "pia",
+   "title": "英文購票站（不需會員）",
+   "url": "https://sell.pia.jp/inbound/selectTicket.php?eventCd=2602836&rlsCd=007&langCd=eng",
+   "freq": "每秒查 1 次，目標日輪流",
+   "state": "ok",
+   "note": "",
+   "checks_per_min": 60,
+   "groups": [
+    {
+     "label": "11/21(六) 10:30",
+     "checked_at": "2026-10-18T08:27:35+08:00",
+     "items": [
+      {
+       "name": "Chair Seats S",
+       "status": "✕售完",
+       "available": false
+      },
+      {
+       "name": "Chair Seats A",
+       "status": "✕售完",
+       "available": false
+      },
+      {
+       "name": "Chair Seats B",
+       "status": "✕售完",
+       "available": false
+      },
+      {
+       "name": "Chair Seats C",
+       "status": "✕售完",
+       "available": false
+      }
+     ]
+    },
+    {
+     "label": "11/22(日) 10:00",
+     "checked_at": "2026-10-18T08:27:36+08:00",
+     "items": [
+      {
+       "name": "Chair Seats S",
+       "status": "✕售完",
+       "available": false
+      },
+      {
+       "name": "Chair Seats A",
+       "status": "✕售完",
+       "available": false
+      },
+      {
+       "name": "Chair Seats B",
+       "status": "✕售完",
+       "available": false
+      },
+      {
+       "name": "Chair Seats C",
+       "status": "✕售完",
+       "available": false
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "kkday",
+   "title": "KKday 觀賽行程（KKday Japan 主辦）",
+   "url": "https://www.kkday.com/zh-tw/product/251517",
+   "freq": "每 60 秒查 1 次",
+   "state": "ok",
+   "note": "",
+   "checks_per_min": 1,
+   "groups": [
+    {
+     "label": "11/21(六)",
+     "checked_at": "2026-10-18T08:26:43+08:00",
+     "items": [
+      {
+       "name": "イスA席",
+       "status": "額滿",
+       "available": false
+      },
+      {
+       "name": "イスB席",
+       "status": "額滿",
+       "available": false
+      }
+     ]
+    },
+    {
+     "label": "11/22(日)",
+     "checked_at": "2026-10-18T08:26:43+08:00",
+     "items": [
+      {
+       "name": "イスA席",
+       "status": "額滿",
+       "available": false
+      },
+      {
+       "name": "イスB席",
+       "status": "額滿",
+       "available": false
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "available": [],
+ "events": [
+  {
+   "time": "2026-10-16T16:54:17+08:00",
+   "text": "監看啟動（上次更新 10-16 16:52，中斷約 1 分鐘）"
+  },
+  {
+   "time": "2026-10-16T16:52:52+08:00",
+   "text": "監看程式異常結束：PermissionError: [Errno 13] Permission denied: 'C:\\\\Users\\\\er40128223\\\\Downloads\\\\sumo_ticket_watch\\\\last_notified.json'"
+  },
+  {
+   "time": "2026-10-16T16:25:14+08:00",
+   "text": "監看啟動"
+  }
+ ]
+}
